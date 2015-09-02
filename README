@@ -1,3 +1,26 @@
+FORWARD
+
+Fork of Jonathan Corbet's gitdm (git://git.lwn.net/gitdm.git).
+
+Sample configuration contains Kubernetes-specific author aliases and 
+contributor employer domain mapping.
+
+
+EXAMPLE USAGE
+
+	git clone https://github.com/karlkfi/kubernetes-gitdm \
+		~/workspace/gitdm
+	git clone https://github.com/kubernetes/kubernetes \
+		~/workspace/kubernetes
+	cd ~/workspace/kubernetes
+	git log --numstat --no-merges | \
+		~/workspace/gitdm/gitdm -s -a -n \
+			-o results \
+			-b ~/workspace/gitdm
+
+
+ABSTRACT
+
 The code in this directory makes up the "git data miner," a simple hack
 which attempts to figure things out from the revision history in a git
 repository. 
