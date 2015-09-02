@@ -2,4 +2,12 @@
 # This is the email aliases file, mapping secondary addresses
 # onto a single, canonical address.
 #
-corbet@eklektix.com	corbet@lwn.net
+stefan.schimanski@gmail.com stefan.schimanski@mesosphere.com
+james.defelice@ishisystems.com  james@mesosphere.com
+james@mesosphere.io  james@mesosphere.com
+james.defelice@gmail.com    james@mesosphere.com
+kelsey.hightower@gmail.com  kelsey.hightower@coreos.com
+preilly@php.net patrick@kismatic.io
+mikedanese@gmail.com    mikedanese@google.com
+satnam@raintown.org satnam@google.com
+pmorie@gmail.com    pmorie@redhat.com
